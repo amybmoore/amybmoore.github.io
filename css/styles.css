@@ -1,0 +1,102 @@
+/* Amy Moore Website CSS Styles */
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+header{
+    background-color: rgb(234, 229, 223);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 30px; 
+}
+
+header img{
+    display: block;
+    margin: 0 auto;
+}
+
+h1{
+    font-family:"Engravers MT", "Cinzel", "Trajan Pro 3", serif;
+    font-size: 2.0em;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: rgb(83, 77, 69);
+}
+
+h2{
+    font-family: "Engravers MT", "Cinzel", "Trajan Pro 3", serif;
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+#about{
+    margin-left: 30px;
+}
+
+h3{
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: rgb(138, 129, 117);
+}
+
+#image {
+    display: flex;
+    flex-direction: column;   /* stack items vertically */
+    align-items: center;      /* center horizontally */
+    text-align: center;       /* center text inside headings */
+}
+
+#avatar{
+    margin-bottom: 20px;
+}
+
+hr{
+    color: rgb(234, 229, 223);
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+#content {
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+  background-color: rgb(234, 229, 223);
+  padding: 30px 15px;
+  margin: 0 20px;
+}
+
+#bio {
+  flex: 2;
+}
+
+#movies {
+  flex: 1;
+}
+
+ul{
+    list-style: none;
+}
+
+p{
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+main{
+    margin-bottom: 40px;
+}
+
+footer{
+    font-size: .8em;
+    color: rgb(195, 190, 185);
+    text-align: center;
+}
+
+body{
+    margin-bottom: 40px;
+}
