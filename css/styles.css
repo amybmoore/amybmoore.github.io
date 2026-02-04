@@ -33,6 +33,14 @@ h2{
     text-align: left;
 }
 
+#welcome{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: rgb(138, 129, 117);
+}
+
 #about{
     margin-left: 30px;
 }
@@ -57,7 +65,7 @@ h3{
 hr{
     color: rgb(234, 229, 223);
     width: 50%;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 #content {
