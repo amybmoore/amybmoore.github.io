@@ -3,6 +3,7 @@
 body {
     font-family:Arial, Helvetica, sans-serif;
     font-size: 1em;
+    margin-bottom: 40px;
 }
 
 header{
@@ -68,6 +69,31 @@ hr{
     margin-bottom: 30px;
 }
 
+#carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-height: 300px;
+    overflow: hidden;
+    gap: 10px;
+}
+
+#carousel img {
+    max-height: 300px;
+    aspect-ratio: auto 300 / 400;
+    border-radius: 10px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
 #content {
   display: flex;
   gap: 3rem;
@@ -105,6 +131,3 @@ footer{
     text-align: center;
 }
 
-body{
-    margin-bottom: 40px;
-}
