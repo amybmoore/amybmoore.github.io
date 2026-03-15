@@ -81,7 +81,7 @@ hr{
 
 #carousel img {
     max-height: 300px;
-    aspect-ratio: auto 300 / 400;
+    /* aspect-ratio: auto 300 / 400; */
     border-radius: 10px;
 }
 
@@ -145,6 +145,11 @@ main{
     margin-top: 20px;
     font-size: .9em;
     text-align: center;
+}
+
+#pokemon img{   /* targets the image within the div container */
+    display: block;   /* makes the image start on a new line and take up the full width */
+    margin: 0 auto;   /* centers the image horizontally */
 }
 
 a {
